@@ -3,6 +3,8 @@
         echo $name = $_FILES['file']['name'];
         echo "<br>";
         echo $type = $_FILES['file']['type'];
+        echo "<br>";
+        echo $tmp_location = $_FILES['file']['tmp_name'];
     }
 ?>
 
