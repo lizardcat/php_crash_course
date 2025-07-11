@@ -1,7 +1,7 @@
 <?php 
     if (isset($_POST["submit"])) {
         $myFile = fopen("uploads/file.txt", "a");
-        $txt = "My age is " . $_POST["age"] . "\n";
+        $txt = $_POST["age"] . "\n";
 
         fwrite($myFile, $txt);
 

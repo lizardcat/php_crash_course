@@ -1,4 +1,5 @@
-My age is 23
-My age is 12
-My age is 11
-My age is 15
+23
+22
+21
+46
+67
